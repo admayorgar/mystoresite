@@ -1,0 +1,93 @@
+/* General e Index */
+body {
+    background-color: rgb(249, 250, 254);
+}
+.fondotemporada {
+    background-image: url('../img/Index_img/fondo-temporada.jpg');
+}
+
+.fondofooter {
+    background-color: rgb(209, 208, 208);
+}
+.registro{
+    background-color:rgba(209, 208, 208, 0.5);
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgcolorcsstemp{
+    background-color:rgba(209, 208, 208, 0.5);
+    padding: 7%;
+    box-shadow: 5px 4px 3px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgcolorcss{
+    background-color:rgba(234, 236, 238, 0.5); /*rgba(209, 208, 208, 0.712)*/
+    padding: 7%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+nav img {
+    width: 120px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.social-links li {
+    font-size: 20pt;
+    display:inline !important;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-responsive {
+    width: 100px;
+    height: 350px;
+}
+
+.bg-fondo-ps{
+    background-color:rgba(234, 236, 238, 0.5); /*rgba(209, 208, 208, 0.712)*/
+    padding: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.bg-fondo{
+    background-color:rgba(234, 236, 238, 0.7); /*rgba(209, 208, 208, 0.712)*/
+    padding: 5%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+@media screen and (max-width: 376px){
+    .temporada-seccion{
+        height: initial;
+    }
+    .carousel-inner{
+        height: auto;
+    }
+
+
+}
+

@@ -1,0 +1,36 @@
+------------------
+SCRIPT MY STORE SITE
+------------------
+
+Base de datos:
+mystoresite.sql
+
+------------------
+
+	$host="localhost";
+	$db="mysoresite";
+	$usuario="root";
+	$contrasenia="";
+
+------------------
+
+Acceso al Manager:
+
+	usuario: admin
+	contraseña: admin2022
+
+------------------
+
+Para ejecutarlo en servidor local:
+
+	Es necesario el XAMPP que trae integrado por defecto:
+	El APACHE, MySQL y PHPMyAdmin.
+
+	Esta carpeta se encuentra en la ruta:
+	C:\xampp\htdocs
+
+-----------------------------------------------------
+© 2022 Andrea Mayorga. Todos los Derechos Reservados.
+
+
+              
